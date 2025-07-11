@@ -1,6 +1,6 @@
-# Hello there 👋
+# Hello there ✌️
 
-I am Gabriele, Gabi, Gab, Belele or even Nando for some people... I love Python 🐍, R🔬, JS🟨 and discovering new stuff. If you have a fun or convoluted project feel free to ask me.
+I am Gabriele, Gabi, Gab, Belele or even Nando for some people... I love Python 🐍, R🔬, JS🟨 and discovering new stuff. If you have a fun or convoluted project feel free to include me.
 
 I live in Paris 🇫🇷 and come from Napoli 🍕.
 
@@ -22,8 +22,8 @@ I live in Paris 🇫🇷 and come from Napoli 🍕.
 ### Perso
 
 - 🔭 I have many ideas I'd like to create and hope to be able to share them soon with the rest of the world;
-- 📸 I like to share come clichés on [Flickr](https://www.flickr.com/people/154388964@N02/) if you want to take a look;
+- 📸 I like to share come clichés on [Flickr](https://www.flickr.com/people/154388964@N02/) if you want to have a look;
 - 🌱 I’m currently learning the basics of self hosting;
-- ⚡ I completed my first living dex in 2024 (and promptly [celebrated it](img/IMG_1433.JPG)) and always try to improve on Pokémon challenges;
+- ⚡ I completed my first living dex in 2024 (promptly [celebrated it](img/IMG_1433.JPG)) and always try to improve on Pokémon challenges;
 - 🧶 more to come...
 
