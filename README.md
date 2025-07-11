@@ -1,10 +1,10 @@
 # Hello there 👋
 
-I am Gabriele, Gabi, Gab, Belele or even Nando for some people... I love Python 🐍, R, JS and discovering new stuff. If you have a fun or convoluted project feel free to ask me.
+I am Gabriele, Gabi, Gab, Belele or even Nando for some people... I love Python 🐍, R🔬, JS🟨 and discovering new stuff. If you have a fun or convoluted project feel free to ask me.
 
 I live in Paris 🇫🇷 and come from Napoli 🍕.
 
-[![3elele's GitHub stats](https://github-readme-stats.vercel.app/api?username=3elele&show_icons=true&theme=solarized-light)](https://github.com/anuraghazra/github-readme-stats)
+[![3elele's GitHub stats](https://github-readme-stats.vercel.app/api?username=3elele&show_icons=true&theme=solarized-light&rank_icon=github&hide=issues&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Want to read my resumé?
 
