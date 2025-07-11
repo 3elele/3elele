@@ -1,0 +1,103 @@
+%%%%% inspired from https://www.overleaf.com/latex/templates/clean-cv-template/qqwnkbrspbtr
+
+%%%%% Page-Layout
+\pagestyle{empty}
+\setlength\topmargin{-1.3in}
+\setlength\oddsidemargin{-0.8in}
+\setlength\textwidth{200mm}
+\setlength\textheight{380mm}
+
+%%%%% word wrapping with no truncation
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+%%%%% Sans serif font use
+\renewcommand{\familydefault}{\sfdefault}
+%%%%% friendly text commands
+\providecommand{\code}{\texttt}
+\providecommand{\strong}{\textbf}
+\providecommand{\italic}{\textit}
+
+%%%%% Font Awesome custom usage
+\newcommand{\faCenter}[1]{\raisebox{-2pt}{\faIcon{#1}}}
+
+%%%%% Section formatting
+\newcommand{\cvSection}[1]{
+	{\color{white}\rule{\linewidth}{0.2pt}}
+	\vspace{-0.5em}
+	{\large \strong{#1}}
+	{\color{teal}\rule{\linewidth}{1pt}}
+}
+
+\newcommand{\daterule}{\color{dateline}\vrule width 1pt}
+
+%%%%% PACKAGES IMPORTS %%%%%%
+\usepackage{babel}
+
+%%%%% long error messages
+\errorcontextlines=999
+
+%%%%% better font, similar to the default springer font
+%%%%% cfr-lm is preferred over lmodern. Reasoning at http://tex.stackexchange.com/a/247543/9075
+\usepackage[
+	rm={oldstyle=false,proportional=true},
+	sf={oldstyle=false,proportional=true},
+	tt={oldstyle=false,proportional=true,variable=true},
+	qt=false% 
+]{cfr-lm}
+
+%%%%% extended enumerate, such as \begin{compactenum}
+\usepackage{paralist}
+
+%%%%% tweak \url{...}
+\usepackage{url}
+% nicer // - solution by http://tex.stackexchange.com/a/98470/9075
+\makeatletter
+\def\Url@twoslashes{\mathchar`\/\@ifnextchar/{\kern-.2em}{}}
+\g@addto@macro\UrlSpecials{\do\/{\Url@twoslashes}}
+\makeatother
+\urlstyle{same}
+% improve wrapping of URLs - hint by http://tex.stackexchange.com/a/10419/9075
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\makeatother
+
+%%%%% enable hyperref without colors and without bookmarks
+\usepackage[
+	bookmarks=false,
+	breaklinks=true,
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=black,
+	pdfpagelayout=SinglePage,
+	pdfstartview=Fit
+]{hyperref}
+
+%%%%% graphics
+\usepackage[export]{adjustbox} % loads also graphicx
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{ae}
+\usepackage{color}
+
+%%%%% IPA characters
+\usepackage{tipa}
+
+%%%%% Font Awesome Icons
+\usepackage{fontawesome5}
+
+%%%%% Font and table optimisations
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{longtable}
+\usepackage{makecell}
+\usepackage{multirow}
+
+\definecolor{datecolor}{gray}{0.4}
+\definecolor{dateline}{gray}{0.5}
