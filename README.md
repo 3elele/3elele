@@ -15,7 +15,7 @@ I live in Paris 🇫🇷 and come from Napoli 🍕.
 
 ### Pro
 
-- 🗺️ I develop language technologies as CTO at [ELDA](https://github.com/ELDAELRA), a company specialised in creation and distribution of language resources;
+- 🗺️ I am currently CTO at [ELDA](https://github.com/ELDAELRA), a company specialised in creation and distribution of language resources;
 - 📻 I worked as an AI Researcher at [ATDI](https://atdi.com), a global leader in software solutions for radio engineering and spectrum management in 2024/25;
 - 🧐 I hold a [PhD](https://www.afcp-parole.org/wp-content/uploads/2023/01/These_CHIGNOLI_Gabriele_2022.pdf) in Phonetics, Phonology and Speech Science focused on speakers characterisation that I defended on 15/9/22.
 
